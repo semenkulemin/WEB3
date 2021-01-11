@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "HelveticaNeueCyr";
+}
+* {
+    font-family: HelveticaNeueCyr, serif;
+    text-align: center;
+    font-weight: normal;
+}
+body{
+    background-color: #EEE2DC
+}
+header {
+    top: 0;
+}
+footer {
+    bottom: 0;
+}
+
+header, footer {
+    font-size: 0.8em;
+    width: 100%;
+    position: fixed;
+    color: white;
+    background-color: #123C69;
+    left: 0;
+}
+
+#wholeContent {
+    background-color: #BAB2B5;
+    width: 100%;
+    margin: 100px auto 30px;
+}
+
+thead * {
+    margin-top: 4%
+}
+
+
+#output_table {
+    top: 200px;
+    border: 1px solid #AC3B61;
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+
+#output_table th {
+    background-color: #AC3B61;
+    color: white;
+}
+
+#output_table * {
+    padding: 15px;
+}
+#output_table{
+    height:100px;
+    overflow-y:scroll;
+}
